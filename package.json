@@ -1,0 +1,56 @@
+{
+  "name": "CoinUp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "easemob-websdk": "^1.8.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "querystring": "^0.2.0",
+    "react": "16.6.1",
+    "react-native": "0.57.7",
+    "react-native-action-button": "^2.8.5",
+    "react-native-camera": "^1.6.3",
+    "react-native-camera-roll-picker": "^1.2.3",
+    "react-native-device-info": "^0.24.3",
+    "react-native-fs": "^2.13.3",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-native-gifted-chat": "^0.5.0",
+    "react-native-i18n": "^2.0.15",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-maps": "^0.22.1",
+    "react-native-nav": "^2.0.2",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-refresh-list-view": "^1.0.10",
+    "react-native-root-siblings": "^3.1.7",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-scrollable-tab-view": "^0.10.0",
+    "react-native-swRefresh": "^1.2.3",
+    "react-native-swipe-list-view": "^1.5.1",
+    "react-navigation": "^3.0.7",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^0.16.2",
+    "redux-thunk": "^2.3.0",
+    "reduxsauce": "^1.0.1",
+    "seamless-immutable": "^7.1.4",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.50.0",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
